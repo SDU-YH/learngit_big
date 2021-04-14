@@ -9,14 +9,21 @@ from UI import *
 #from Draw import draw
 import GetData
 from GetData import *
+import tkinter
+from tkinter import * 
 
 window = tk.Tk()
 BuDemo(window)
 window.mainloop()
+
+
 
 '''
 userdata = get_user_data()
 for i in range(len(userdata)):
         print(userdata[i])
 '''
-
+def drawwindow():
+        window = tk.Tk()
+        BuDemo(window)
+        window.mainloop()
